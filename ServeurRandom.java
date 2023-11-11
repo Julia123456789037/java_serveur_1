@@ -40,7 +40,17 @@ public class ServeurRandom
 
 				out = new PrintWriter(toClient.getOutputStream(), true);
 
-				out.println("Bienvenue sur ServeurSimple1 de " + "Julia"); // bannière
+				out.println("Bienvenue sur ServeurSimple1 de " + "Justine"); // bannière
+
+				DateFR d1;
+		
+
+				d1 = new DateFR ( );
+
+				out.println("Nous somme le " + d1); // bannière
+
+
+
 				out.close();
 				toClient.close();
 				ss.close();
